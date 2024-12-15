@@ -555,6 +555,10 @@ main {
   line-height: 1.6;
 }
 
+.project-tech {
+  color:yellow;
+}
+
 
 /**
  * #testimonials 

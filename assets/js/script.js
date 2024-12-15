@@ -158,3 +158,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+document.getElementById('downloadBtn').addEventListener('click', function () {
+  const link = document.createElement('a');
+  link.href = './assets/resume/Ishaan-parmar-resume.pdf'; // Path to the PDF file
+  link.download = 'Ishaan-Parmar-Resume.pdf'; // Name of the file when downloaded
+  link.click(); // Programmatically trigger the click event
+});
+
