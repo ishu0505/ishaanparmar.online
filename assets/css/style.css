@@ -587,6 +587,16 @@ main {
   scroll-snap-align: center;
 }
 
+.custom-icon {
+  display: inline-block;
+  width: 50px; /* Set desired width */
+  height: 50px; /* Set desired height */
+  background-image: url('../images/kagglee.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .testimonials-avatar-box {
   position: absolute;
   top: 0;
