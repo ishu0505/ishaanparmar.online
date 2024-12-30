@@ -116,7 +116,7 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 // contact form variables
-const form = document.querySelector("[data-form]");
+// const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 
@@ -164,4 +164,8 @@ document.getElementById('downloadBtn').addEventListener('click', function () {
   link.download = 'Ishaan-Parmar-Resume.pdf'; // Name of the file when downloaded
   link.click(); // Programmatically trigger the click event
 });
+
+
+const form = document.getElementById("contact-form");
+const submitButton = document.querySelector("[data-form-btn]");
 

@@ -1809,8 +1809,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar, article { width: auto; }
 
   article { min-height: 100%; }
-
-
+  .google-form-container {
+    position: relative;
+    width: 800px; /* Default width for desktop */
+    height: 800px; /* Default height for desktop */
+    margin: 0 auto; /* Center align on desktop */
+  }
+  
+ 
+  
 
   /**
    * MAIN
@@ -1894,4 +1901,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
 
