@@ -1902,5 +1902,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+.google-form-container {
+  position: relative;
+  width: 100%; /* Default to full width */
+  max-width: 800px; /* Limit width on larger screens */
+  height: 800px; /* Default height */
+  margin: 0 auto; /* Center align the iframe */
+}
+
+.google-form-container iframe {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  border: none; /* Remove default iframe border */
+}
+
+/* For devices with a width less than 768px (mobile) */
+@media (max-width: 768px) {
+  .google-form-container {
+    max-width: 400px; /* Restrict max width for mobile */
+    height: 800px; /* Maintain height */
+  }
+}
+
+/* For very small devices (e.g., less than 480px) */
+@media (max-width: 480px) {
+  .google-form-container {
+    max-width: 100%; /* Full width for smaller devices */
+    height: 700px; /* Adjust height for smaller screens */
+  }
+}
 
 
